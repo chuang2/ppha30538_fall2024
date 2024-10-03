@@ -1,1 +1,7 @@
 minilessons/minilesson_1/minilesson_1.qmd
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python virtual environments
+.venv/

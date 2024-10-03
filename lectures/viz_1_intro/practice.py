@@ -1,6 +1,11 @@
 import pandas as pd
 import altair as alt
+
 alt.renderers.enable('html')
+
+import altair_viewer
+
+
 
 #installed vega through terminal
 from vega_datasets import data as vega_data
@@ -19,9 +24,7 @@ print(df.head())
 
 #chart object
 
-chart = alt.Chart(df).mark_bar().encode(
-    x='month',
-    y='precip',
-    color='city'
-)
-chart.show()
+chart = alt.Chart(df)
+alt.Chart(df).mark_point()
+
+
