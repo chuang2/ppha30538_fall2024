@@ -6,3 +6,4 @@ minilessons/minilesson_1/minilesson_1.qmd
 # Ignore Python virtual environments
 .venv/
 .DS_Store
+.DS_Store
